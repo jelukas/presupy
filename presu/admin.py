@@ -12,11 +12,19 @@ from presu.models import EstadoPresupuesto
 class LineaPresupuestoInline(admin.TabularInline):
     model = LineaPresupuesto
     extra = 2;
+
 class PresupuestoAdmin(admin.ModelAdmin):
     fields = [('codigo', 'numero','fecha'),'cliente','estado','notas','neto','impuestos','total',]
     readonly_fields = ['total','codigo','neto','impuestos',]
     list_display = ['codigo','fecha', 'numero','cliente','estado','notas','neto','impuestos','total',]
     list_editable = ['estado']
+
+    # define the raw_id_fields
+    raw_id_fields = ('cliente',)
+    # define the related_lookup_fields
+    autocomplete_lookup_fields = {
+        'fk': ['cliente'],
+    }
 
     search_fields = ['numero','cliente__nombre']
     list_filter = ('fecha','estado')

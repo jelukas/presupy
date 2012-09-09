@@ -21,6 +21,10 @@ class Cliente(models.Model):
     def __unicode__(self):
         return self.nombre;
 
+    @staticmethod
+    def autocomplete_search_fields():
+        return ("id__iexact", "nombre__icontains",)
+
 
 class EstadoPresupuesto(models.Model):
     nombre = models.CharField(blank=False,max_length=255)
@@ -62,7 +66,6 @@ class Presupuesto(models.Model):
 
     def __unicode__(self):
         return self.codigo()
-
 
 
 class LineaPresupuesto(models.Model):

@@ -1,14 +1,8 @@
-.field-neto, .field-impuestos{
-    background-color: #dcdcdc;
+div.total{
+    background-color: #555555;
 }
-.field-neto div p, .field-impuestos div p{
-    font-size: 1.3em;
-}
-.field-total{
-    background-color: #7CA0C7;
-}
-.field-total div p, .field-total div label{
-    font-weight: bold;
-    color: #ffffff;
-    font-size: 1.5em;
+div.total p.grp-readonly, div.total label{
+    font-weight: bold !important;
+    color: #ffffff !important;
+    font-size: 1.5em !important;
 }
