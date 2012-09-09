@@ -11,9 +11,9 @@ from presu.models import EstadoPresupuesto
 
 class LineaPresupuestoInline(admin.TabularInline):
     model = LineaPresupuesto
-
+    extra = 2;
 class PresupuestoAdmin(admin.ModelAdmin):
-    fields = ['codigo','fecha', 'numero','cliente','estado','notas','neto','impuestos','total',]
+    fields = [('codigo', 'numero','fecha'),'cliente','estado','notas','neto','impuestos','total',]
     readonly_fields = ['total','codigo','neto','impuestos',]
     list_display = ['codigo','fecha', 'numero','cliente','estado','notas','neto','impuestos','total',]
     list_editable = ['estado']
@@ -25,7 +25,10 @@ class PresupuestoAdmin(admin.ModelAdmin):
 
     "Cargamos el Javavscript que usaremos para recarlcular los totales en tiempo real"
     class Media:
-        js = ("presupy.js",)
+        js = ("js/presupy.js",)
+        css = {
+            "all": ("css/presupuesto_change.css",)
+        }
 
     """Esto hara que cuando editemos y guardemos vayamos de nuevo a la pagina de edicion y no a la lista de presupuestos"""
     def response_change(self, request, obj):

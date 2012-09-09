@@ -44,15 +44,6 @@ django.jQuery(function($){
     /*Recalcular el Total al cambiar datos*/
     $('.field-cantidad,.field-precio,.field-descuento,.field-impuesto').keyup(recalcular_totales_presupuesto);
 
-
-    $.event.special.destroyed = {
-        remove: function(o) {
-            if (o.handler) {
-                o.handler();
-            }
-        }
-    }
-    $('tr.dynamic-lineas').bind('destroyed', function() {
-        console.log('hi there');
-    })
+    /*Esto esta muy feo y es muy ineficiente pero por ahora es lo que ahi......*/
+    setInterval(recalcular_totales_presupuesto,1000);
 })
