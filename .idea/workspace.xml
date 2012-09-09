@@ -22,51 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presu/admin.py">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/presupy/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="presupuesto_change.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presu/static/css/presupuesto_change.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="16" column="11" selection-start="567" selection-end="567" vertical-scroll-proportion="0.41025642">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="presupy.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presu/static/js/presupy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/presupy/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="38" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.84307694">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presu/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -86,11 +46,11 @@
       <list>
         <option value="C:/Python27/Lib/site-packages/django/contrib/admin/options.py" />
         <option value="$PROJECT_DIR$/presu/static/presupy.js" />
-        <option value="$PROJECT_DIR$/presupy/urls.py" />
         <option value="$PROJECT_DIR$/presu/models.py" />
         <option value="$PROJECT_DIR$/presu/admin.py" />
         <option value="$PROJECT_DIR$/presu/static/css/presupuesto_change.css" />
         <option value="$PROJECT_DIR$/presupy/settings.py" />
+        <option value="$PROJECT_DIR$/presupy/urls.py" />
       </list>
     </option>
   </component>
@@ -307,13 +267,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391983" sideWeight="0.7818182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26391983" sideWeight="0.7818182" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21428572" sideWeight="0.49839914" order="-1" side_tool="true" content_ui="tabs" />
@@ -406,16 +366,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presupy/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="605" selection-end="605" vertical-scroll-proportion="0.45066273">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presu/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.68">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -448,6 +401,13 @@
     <entry file="file://$PROJECT_DIR$/presupy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="38" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.84307694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presupy/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="567" selection-end="567" vertical-scroll-proportion="0.41025642">
           <folding />
         </state>
       </provider>
