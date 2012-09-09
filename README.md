@@ -1,4 +1,4 @@
-presupy
+PRESUPY
 =======
 
 Web App made with Django to make Budgets
