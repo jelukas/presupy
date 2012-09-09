@@ -42,10 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="presupy.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="presupy.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presu/static/js/presupy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.2923077">
+            <state line="15" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/presupy/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="157" column="38" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.84307694">
               <folding />
             </state>
           </provider>
@@ -77,11 +86,11 @@
       <list>
         <option value="C:/Python27/Lib/site-packages/django/contrib/admin/options.py" />
         <option value="$PROJECT_DIR$/presu/static/presupy.js" />
-        <option value="$PROJECT_DIR$/presupy/settings.py" />
         <option value="$PROJECT_DIR$/presupy/urls.py" />
         <option value="$PROJECT_DIR$/presu/models.py" />
         <option value="$PROJECT_DIR$/presu/admin.py" />
         <option value="$PROJECT_DIR$/presu/static/css/presupuesto_change.css" />
+        <option value="$PROJECT_DIR$/presupy/settings.py" />
       </list>
     </option>
   </component>
@@ -143,47 +152,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="presu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="presupy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presupy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presupy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presupy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presupy/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="16" selection-start="4406" selection-end="4406" vertical-scroll-proportion="0.84977907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presu/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
@@ -478,7 +440,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/presu/static/js/presupy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.2923077">
+        <state line="15" column="26" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presupy/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="38" selection-start="5445" selection-end="5445" vertical-scroll-proportion="0.84307694">
           <folding />
         </state>
       </provider>

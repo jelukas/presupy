@@ -154,3 +154,5 @@ LOGGING = {
         },
     }
 }
+#Grapelli Settings
+GRAPPELLI_ADMIN_TITLE = 'PRESUPY por @Jelukas89'
