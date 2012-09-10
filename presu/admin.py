@@ -1,5 +1,7 @@
 from django.contrib import admin
 
+import datetime
+
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 
@@ -11,7 +13,9 @@ from presu.models import EstadoPresupuesto
 
 class LineaPresupuestoInline(admin.TabularInline):
     model = LineaPresupuesto
-    extra = 2;
+    extra = 2
+    fields = ['concepto', 'cantidad','precio','descuento','impuesto','neto',]
+    readonly_fields = ['neto',]
 
 class PresupuestoAdmin(admin.ModelAdmin):
     fields = [('codigo', 'numero','fecha'),'cliente','estado','notas','neto','impuestos','total',]
@@ -43,6 +47,14 @@ class PresupuestoAdmin(admin.ModelAdmin):
         """This makes the response go to the newly created model's change page
         without using reverse"""
         return HttpResponseRedirect(request.path)
+
+    """ Cambiamos el Field 'numero' para poner un valor por defecto calculado """
+    def formfield_for_dbfield(self, db_field, **kwargs):
+        field = super(PresupuestoAdmin, self).formfield_for_dbfield(db_field, **kwargs)
+        if db_field.name == 'numero':
+            field.widget.attrs['value'] = Presupuesto.next(datetime.datetime.now().year)
+
+        return field
 
 class LineaPresupuestoAdmin(admin.ModelAdmin):
     list_display = ['concepto','cantidad', 'precio','descuento','impuesto','total','presupuesto','presupuesto_link',]

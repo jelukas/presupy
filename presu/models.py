@@ -34,9 +34,10 @@ class EstadoPresupuesto(models.Model):
 
 
 class Presupuesto(models.Model):
+
     fecha = models.DateTimeField(blank=False,default=datetime.datetime.now())
     fecha_modificacion = models.DateTimeField(auto_now=True)
-    numero = models.CharField(blank=False,max_length=255)
+    numero = models.CharField(blank=False,max_length=255,)
     notas = models.TextField(blank=True)
     total = models.DecimalField(max_digits=25, decimal_places=4,default=0,)
 
@@ -51,6 +52,15 @@ class Presupuesto(models.Model):
         for linea in self.lineas.all():
             neto += linea.neto();
         return neto;
+
+    @staticmethod
+    def next(year):
+        presupuestos = Presupuesto.objects.filter(fecha__year=year).order_by("-numero")
+        if presupuestos.count() == 0:
+            number = 1
+        else:
+            number = int(presupuestos[0].numero)+1
+        return number
 
     def impuestos(self):
         impuestos = 0;
